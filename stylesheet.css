@@ -105,12 +105,14 @@ a:hover{
 #project5{
   grid-area: project5;
 }
-#project1, #project2, #project3, #project4, #project5
-{
+#project6{
+  grid-area: project6;
+}
+#project1, #project2, #project3, #project4, #project5, #project6{
   height: auto;
   margin: 10px 15px;
 }
-#text1, #text2, #text3, #text4, #text5{
+#text1, #text2, #text3, #text4, #text5, #text6{
   width: 93%;
   margin: 0 auto;
 }
@@ -128,6 +130,9 @@ a:hover{
 }
 #text5{
   grid-area:text5;
+}
+#text6{
+  grid-area:text6;
 }
 #intro2{
   grid-area:intro2;
@@ -187,6 +192,10 @@ a:hover {
   text-align: center;
   padding: 10px 0;
 }
+.title{
+  width: 90%;
+  margin: 0 auto;
+}
 .byline {
       font-weight: 400;
       font-size: 20px;
@@ -217,6 +226,10 @@ a:hover {
   width: 100%;
   height: auto;
   margin-top: 10px;
+}
+.caption p{
+  font-style: italic;
+  font-size: 14px;
 }
 .video{
   position: relative;
@@ -338,8 +351,8 @@ text-align:center;
   '. text1 text2 .'
   '. project3 project4 .'
   '. text3 text4 .'
-  '. project5 . .'
-  '. text5 . .'
+  '. project5 project6 .'
+  '. text5 text6 .'
   '. footer footer .'
   ;
   grid-column-gap: 10px;
@@ -432,6 +445,7 @@ text-align:center;
     '. project3 text3 text3 text3 .'
     '. project4 text4 text4 text4 .'
     '. project5 text5 text5 text5 .'
+    '. project6 text6 text6 text6 .'
     '. footer footer footer footer .'
     ;
     align-items: center;
@@ -542,6 +556,8 @@ text-align:center;
     'text4'
     'project5'
     'text5'
+    'project6'
+    'text6'
     'footer'
     ;
     align-items: center;
@@ -614,6 +630,9 @@ text-align:center;
   }
   .photo{
     font-size: 16px;
+  }
+  .caption p{
+    font-size: 14px;
   }
   #issuestory{
     display: grid;

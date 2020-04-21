@@ -90,6 +90,17 @@ a:hover{
   width:90%;
   resize:1;
 }
+/*#indexproject{
+  grid-area: indexproject;
+}*/
+#resumelayout{
+  grid-area: layout;
+  text-align: left;
+  margin: 0 auto;
+}
+#resumelayout h2{
+  text-align: center;
+}
 #project1{
   grid-area: project1;
 }
@@ -311,6 +322,7 @@ text-align:center;
   grid-template-columns:repeat(6, 1fr);
   grid-template-areas:
   '. img img intro intro .'
+  /* '. indexproject indexproject indexproject indexproject.' */
   '. footer footer footer footer .'
   ;
   grid-column-gap: 10px;
@@ -338,6 +350,7 @@ text-align:center;
   grid-template-columns:repeat(4, 1fr);
   grid-template-areas:
   '. img intro .'
+  'layout layout layout layout'
   '. footer footer .'
   ;
   grid-column-gap: 10px;
@@ -404,7 +417,9 @@ text-align:center;
   color:#377ad1;
 }
 /* hoverable dropdown*/
-
+#resumelayout{
+  padding: 0 150px 30px 150px;
+}
 }
 /*desktop end*/
 
@@ -416,6 +431,7 @@ text-align:center;
     grid-template-areas:
     '. img img .'
     '. intro intro . '
+    /*'. indexproject indexproject .'*/
     '. footer footer.'
     ;
     align-items: center;
@@ -471,6 +487,7 @@ text-align:center;
   }
   #img{
     margin: 0 auto;
+    text-align: center;
   }
   header h1{
     font-size: 90px;
@@ -480,6 +497,9 @@ text-align:center;
     margin-left: 10px;
     font-size: 1.75em;
     width: 2em;
+  }
+  nav li{
+    border: 1px solid white;
   }
   nav li a{
     border-bottom: 1px solid white;
@@ -508,6 +528,9 @@ text-align:center;
    .photo{
      font-size: 16px;
    }
+   #resumelayout{
+     padding: 0 50px;
+   }
 
 }
 /*tablet end*/
@@ -520,6 +543,7 @@ text-align:center;
     grid-template-areas:
     'img'
     'intro'
+    /* 'indexproject' */
     'footer'
     ;
     align-items: center;
@@ -648,5 +672,9 @@ text-align:center;
     width: 90%;
     margin:0 auto;
   }
+  #resumelayout{
+    padding: 0 50px 20px 50px;
+  }
+
 }
 /*mobile end*/

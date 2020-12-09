@@ -745,9 +745,9 @@ color: white;
   position: absolute;
   width: 700px;
   left: 50%;
-  margin-left: -400px;
+  margin-left: -460px;
   height: auto;
-  top: 140px;
+  top: 120px;
 }
 
 .text2 p {
@@ -791,7 +791,7 @@ color: white;
   transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.red {
+.yellow {
   color: #ffbc42;
   margin-left: 20px;
 }

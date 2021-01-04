@@ -433,7 +433,7 @@ width: -webkit-max-content; /* Chrome */
   '. intro3 intro3 .'
   '. project3 project4 .'
   '. intro4 intro4 .'
-  '. project5 . . '
+  '. project5 project5 . '
   '. footer footer .'
   ;
   grid-column-gap: 10px;
@@ -796,6 +796,10 @@ width: -webkit-max-content; /* Chrome */
 top: 40%;
 left: 7%;
 width: 85%;
+}
+#colordesign2{
+  width: 65%;
+  padding-top: 15px;
 }
 }
 /*mobile end*/
